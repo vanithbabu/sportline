@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React, { useEffect } from "react";
 import Script from "next/script";
+import { User, Brain, MapPin, Handshake, Trophy } from "lucide-react";
 import Seo from "@/components/Seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -428,12 +429,8 @@ export default function Page() {
                   together around a shared purpose.
                 </p>
                 <a
-                  className="btn btn-outline"
+                  className="btn btn-outline-dark"
                   href="#"
-                  style={{
-                    borderColor: "rgba(255,255,255,.35)",
-                    color: "#fff",
-                  }}
                 >
                   SEE HOW IT WORKS <span className="arrow">→</span>
                 </a>
@@ -442,37 +439,47 @@ export default function Page() {
                 <div className="eco-ring"></div>
                 <div className="eco-center">
                   <img src="/images/image_f65b765a.jpg" alt="Athlete" />
+                  <div className="eco-center-badge">
+                    <User className="badge-icon" size={36} strokeWidth={2.5} />
+                    <span className="badge-text">ATHLETE<br/>AT THE CENTRE</span>
+                  </div>
                 </div>
-                <div className="eco-node en1">
-                  COACHES
-                  <br />
-                  <small>Guidance & mentorship</small>
+                <div className="eco-node en1 navy-bg">
+                  <Brain className="eco-icon" size={40} strokeWidth={2} color="#fff" />
+                  <div className="eco-label label-left">
+                    <strong>PERFORMANCE</strong>
+                    <div className="line navy-line"></div>
+                    <p>Helping athletes perform at their best.</p>
+                  </div>
                 </div>
-                <div className="eco-node en2">
-                  CLUBS
-                  <br />
-                  <small>Development & competition</small>
+                <div className="eco-node en2 green-bg">
+                  <MapPin className="eco-icon" size={40} strokeWidth={2} color="#fff" />
+                  <div className="eco-label label-right">
+                    <strong>PATHWAYS</strong>
+                    <div className="line green-line"></div>
+                    <p>Creating access to new opportunities.</p>
+                  </div>
                 </div>
-                <div className="eco-node en3">
-                  PARTNERS
-                  <br />
-                  <small>Resources & opportunities</small>
+                <div className="eco-node en3 saffron-bg">
+                  <Handshake className="eco-icon" size={40} strokeWidth={2} color="#fff" />
+                  <div className="eco-label label-left">
+                    <strong>PARTNERSHIPS</strong>
+                    <div className="line saffron-line"></div>
+                    <p>Connecting people, organisations and markets.</p>
+                  </div>
                 </div>
-                <div className="eco-node en4">
-                  PERFORMANCE
-                  <br />
-                  <small>Science & support</small>
+                <div className="eco-node en4 saffron-bg">
+                  <Trophy className="eco-icon" size={40} strokeWidth={2} color="#fff" />
+                  <div className="eco-label label-right">
+                    <strong>SPORTING EXPERIENCES</strong>
+                    <div className="line saffron-line"></div>
+                    <p>Bringing the power of sport to organisations.</p>
+                  </div>
                 </div>
-                <div className="eco-node en5">
-                  ACADEMIES
-                  <br />
-                  <small>Specialist pathways</small>
-                </div>
-                <div className="eco-node en6">
-                  SCHOOLS
-                  <br />
-                  <small>Education & wellbeing</small>
-                </div>
+                <div className="eco-dot dot-top navy-bg"></div>
+                <div className="eco-dot dot-bottom saffron-bg"></div>
+                <div className="eco-dot dot-left navy-bg"></div>
+                <div className="eco-dot dot-right green-bg"></div>
               </div>
             </div>
             <div className="eco-features">
