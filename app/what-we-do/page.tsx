@@ -111,7 +111,7 @@ export default function Page() {
                   <span className="go">EXPLORE PROGRAMS & WORKSHOPS →</span>
                 </div>
               </a>
-              <a className="choice reveal" href="#pathways">
+              <Link className="choice reveal" href="/what-we-do#pathways">
                 <div className="num">02</div>
                 <div>
                   <h3>What's my next step?</h3>
@@ -121,7 +121,7 @@ export default function Page() {
                   </p>
                   <span className="go">EXPLORE PATHWAYS →</span>
                 </div>
-              </a>
+              </Link>
               <a className="choice reveal" href="#partnerships">
                 <div className="num">03</div>
                 <div>
@@ -161,7 +161,7 @@ export default function Page() {
               <span className="tag">PROGRAMS</span>
               <span className="tag">MASTERCLASSES</span>
             </div>
-            <Link className="btn orange" href="/programs-workshops">
+            <Link className="btn orange" href="/connect-with-us">
               EXPLORE PROGRAMS →
             </Link>
           </div>
@@ -194,7 +194,7 @@ export default function Page() {
               <span className="tag">UNDERSTAND</span>
               <span className="tag">NAVIGATE</span>
             </div>
-            <Link className="btn navy" href="/pathways">
+            <Link className="btn navy" href="/connect-with-us">
               EXPLORE PATHWAYS →
             </Link>
           </div>
@@ -216,7 +216,7 @@ export default function Page() {
               <span className="tag">PATHWAYS</span>
               <span className="tag">STRATEGIC COLLABORATION</span>
             </div>
-            <Link className="btn orange" href="/partnerships">
+            <Link className="btn orange" href="/connect-with-us">
               EXPLORE PARTNERSHIPS →
             </Link>
           </div>
@@ -251,7 +251,7 @@ export default function Page() {
               <span className="tag">TRAVEL</span>
               <span className="tag">CURATED MOMENTS</span>
             </div>
-            <Link className="btn navy" href="/premium-experiences">
+            <Link className="btn navy" href="/connect-with-us">
               EXPLORE EXPERIENCES →
             </Link>
           </div>
@@ -336,7 +336,7 @@ export default function Page() {
                     A conversation about pressure, preparation and what
                     performance really demands.
                   </p>
-                  <a href="#contact">COMING SOON</a>
+                  <a href="/connect-with-us">COMING SOON</a>
                 </div>
               </article>
 
@@ -352,7 +352,7 @@ export default function Page() {
                     What young athletes need from the people and systems around
                     them.
                   </p>
-                  <a href="#contact">COMING SOON</a>
+                  <a href="/connect-with-us">COMING SOON</a>
                 </div>
               </article>
 
@@ -367,7 +367,7 @@ export default function Page() {
                     The support systems and opportunities that help potential
                     turn into progress.
                   </p>
-                  <a href="#contact">COMING SOON</a>
+                  <a href="/connect-with-us">COMING SOON</a>
                 </div>
               </article>
 
@@ -382,7 +382,7 @@ export default function Page() {
                     A look at how information, insight and the right ecosystem
                     can shape sporting futures.
                   </p>
-                  <a href="#contact">COMING SOON</a>
+                  <a href="/connect-with-us">COMING SOON</a>
                 </div>
               </article>
             </div>

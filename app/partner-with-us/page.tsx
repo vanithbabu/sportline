@@ -35,7 +35,7 @@ export default function Page() {
                 opportunity into something people can genuinely experience,
                 participate in and connect with.
               </p>
-              <a className="btn" href="#contact">
+              <a className="btn" href="/connect-with-us">
                 START A CONVERSATION <span>→</span>
               </a>
             </div>

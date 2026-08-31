@@ -124,12 +124,12 @@ export default function Page() {
                       excellence.
                     </p>
                     <div className="hero-actions">
-                      <a className="btn btn-orange" href="#pathways">
+                      <Link className="btn btn-orange" href="/what-we-do#pathways">
                         EXPLORE OUR PATHWAYS <span className="arrow">→</span>
-                      </a>
-                      <a className="btn btn-outline" href="#contact">
+                      </Link>
+                      <Link className="btn btn-outline" href="/partner-with-us">
                         PARTNER WITH US <span className="arrow">→</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="hero-ecosystem reveal">
@@ -233,9 +233,9 @@ export default function Page() {
                       </span>
                     </div>
                   </div>
-                  <a href="#pathways" className="sl-cta orange">
+                  <Link href="/what-we-do#pathways" className="sl-cta orange">
                     EXPLORE WHAT'S NEXT <b>→</b>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="sl-arc sl-arc-right"></div>
@@ -285,9 +285,9 @@ export default function Page() {
                       forward?
                     </div>
                   </div>
-                  <a href="#pathways" className="sl-cta outline-green">
+                  <Link href="/what-we-do#pathways" className="sl-cta outline-green">
                     FIND YOUR DIRECTION <b>→</b>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="sl-arc sl-arc-left"></div>
@@ -347,9 +347,9 @@ export default function Page() {
                     You stay at the centre. We create the connections that move
                     you forward.
                   </p>
-                  <a href="#pathways" className="sl-cta navy">
+                  <Link href="/what-we-do#pathways" className="sl-cta navy">
                     START YOUR JOURNEY <b>→</b>
-                  </a>
+                  </Link>
                 </div>
                 <div className="sl-closing">
                   <strong>Every journey is different.</strong>
@@ -381,7 +381,7 @@ export default function Page() {
                     Extraordinary sporting experiences, curated with care.
                     Moments that stay with you forever.
                   </p>
-                  <a href="#contact" className="sl-cta orange">
+                  <a href="/connect-with-us" className="sl-cta orange">
                     EXPLORE EXPERIENCES <b>→</b>
                   </a>
                 </div>
@@ -428,12 +428,12 @@ export default function Page() {
                   the right people, organisations and opportunities work
                   together around a shared purpose.
                 </p>
-                <a
+                <Link
                   className="btn btn-outline-dark"
-                  href="#"
+                  href="/what-we-do"
                 >
                   SEE HOW IT WORKS <span className="arrow">→</span>
-                </a>
+                </Link>
               </div>
               <div className="eco-visual reveal">
                 <div className="eco-ring"></div>
@@ -441,7 +441,7 @@ export default function Page() {
                   <img src="/images/image_f65b765a.jpg" alt="Athlete" />
                   <div className="eco-center-badge">
                     <User className="badge-icon" size={36} strokeWidth={2.5} />
-                    <span className="badge-text">ATHLETE<br/>AT THE CENTRE</span>
+                    <span className="badge-text">ATHLETE<br />AT THE CENTRE</span>
                   </div>
                 </div>
                 <div className="eco-node en1 navy-bg">
@@ -554,9 +554,9 @@ export default function Page() {
                     Supporting athletes through education, wellbeing, mentoring,
                     leadership and personal development opportunities.
                   </p>
-                  <a href="/what-we-do#programs">
+                  <Link href="/what-we-do#programs">
                     LEARN MORE <span className="arrow">→</span>
-                  </a>
+                  </Link>
                 </div>
               </article>
 
@@ -581,9 +581,9 @@ export default function Page() {
                     opportunities, develop capabilities and progress toward
                     their goals.
                   </p>
-                  <a href="/what-we-do#pathways">
+                  <Link href="/what-we-do#pathways">
                     LEARN MORE <span className="arrow">→</span>
-                  </a>
+                  </Link>
                 </div>
               </article>
 
@@ -607,9 +607,9 @@ export default function Page() {
                     Building meaningful connections between schools, clubs,
                     academies, governing bodies and commercial partners.
                   </p>
-                  <a href="/what-we-do#partnerships">
+                  <Link href="/what-we-do#partnerships">
                     LEARN MORE <span className="arrow">→</span>
-                  </a>
+                  </Link>
                 </div>
               </article>
               <article className="solution reveal">
@@ -632,9 +632,9 @@ export default function Page() {
                     Leveraging technology and innovation to enhance decision
                     making, communication and performance outcomes.
                   </p>
-                  <a href="/what-we-do#experiences">
+                  <Link href="/what-we-do#experiences">
                     LEARN MORE <span className="arrow">→</span>
-                  </a>
+                  </Link>
                 </div>
               </article>
 
@@ -781,12 +781,12 @@ export default function Page() {
                   Sportline Advantage is built for collaboration.
                 </p>
                 <div className="cta-actions">
-                  <Link className="btn btn-orange" href="mailto:hello@sportlineadvantage.com">
+                  <Link className="btn btn-orange" href="/connect-with-us">
                     START A CONVERSATION <span className="arrow">→</span>
                   </Link>
-                  <a className="btn btn-outline" href="#about-us">
+                  <Link className="btn btn-outline" href="/about-us">
                     LEARN ABOUT US <span className="arrow">→</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -823,7 +823,7 @@ export default function Page() {
                     A conversation about pressure, preparation and what
                     performance really demands.
                   </p>
-                  <a href="#contact">COMING SOON</a>
+                  <a href="/connect-with-us">COMING SOON</a>
                 </div>
               </article>
 
@@ -839,7 +839,7 @@ export default function Page() {
                     What young athletes need from the people and systems around
                     them.
                   </p>
-                  <a href="#contact">COMING SOON</a>
+                  <a href="/connect-with-us">COMING SOON</a>
                 </div>
               </article>
 
@@ -854,7 +854,7 @@ export default function Page() {
                     The support systems and opportunities that help potential
                     turn into progress.
                   </p>
-                  <a href="#contact">COMING SOON</a>
+                  <a href="/connect-with-us">COMING SOON</a>
                 </div>
               </article>
 
@@ -869,7 +869,7 @@ export default function Page() {
                     A look at how information, insight and the right ecosystem
                     can shape sporting futures.
                   </p>
-                  <a href="#contact">COMING SOON</a>
+                  <a href="/connect-with-us">COMING SOON</a>
                 </div>
               </article>
             </div>
