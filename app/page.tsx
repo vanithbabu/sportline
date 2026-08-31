@@ -140,7 +140,7 @@ export default function Page() {
                       />
                     </div>
                     <div className="center-label">ATHLETE</div>
-                    <div style={{ position: "absolute", width: "430px", height: "430px", zIndex: 4 }}>
+                    <div className="hero-orbit-wrapper">
                       <div className="node navy n1">
                         <span>
                           <b>♧</b>COACHES

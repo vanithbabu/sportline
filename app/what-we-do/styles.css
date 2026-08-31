@@ -454,31 +454,27 @@ section {
 }
 
 .n1 {
-  top: 20px;
+  transform: translate(0, -195px);
 }
 
 .n2 {
-  right: 18px;
-  top: 105px;
+  transform: translate(169px, -97px);
 }
 
 .n3 {
-  right: 25px;
-  bottom: 75px;
+  transform: translate(169px, 97px);
 }
 
 .n4 {
-  bottom: 5px;
+  transform: translate(0, 195px);
 }
 
 .n5 {
-  left: 25px;
-  bottom: 75px;
+  transform: translate(-169px, 97px);
 }
 
 .n6 {
-  left: 18px;
-  top: 105px;
+  transform: translate(-169px, -97px);
 }
 
 .eco-copy p {
@@ -601,6 +597,40 @@ section {
 
   .hero h1 {
     font-size: 54px;
+  }
+
+  .orbit {
+    height: 310px;
+    margin: -10px 0 10px;
+  }
+  
+  .ring {
+    width: 240px;
+    height: 240px;
+  }
+  
+  .core {
+    width: 96px;
+    height: 96px;
+    font-size: 10px;
+  }
+  
+  .node {
+    width: 68px;
+    height: 68px;
+    font-size: 7px;
+    padding: 6px;
+  }
+
+  .n1 { transform: translate(0, -120px); }
+  .n2 { transform: translate(104px, -60px); }
+  .n3 { transform: translate(104px, 60px); }
+  .n4 { transform: translate(0, 120px); }
+  .n5 { transform: translate(-104px, 60px); }
+  .n6 { transform: translate(-104px, -60px); }
+
+  .ecosystem {
+    overflow: visible;
   }
 }
 

@@ -11,6 +11,7 @@
     @media (max-width: 767px) {
       padding-top:85px;
       padding-bottom:40px;
+      overflow: visible;
     }
   }
 
@@ -99,6 +100,13 @@
     animation: spin 26s linear infinite;
   }
 
+  .hero-orbit-wrapper {
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    z-index: 4;
+  }
+
   .orbit:before {
     content: "";
     position: absolute;
@@ -109,13 +117,15 @@
 
   .node {
     position: absolute;
-    width: 78px;
-    height: 78px;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
     border-radius: 50%;
     display: grid;
     place-items: center;
     text-align: center;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 800;
     color: #fff;
     border: 3px solid rgba(255, 255, 255, 0.85);
@@ -123,9 +133,14 @@
     animation: float 4s ease-in-out infinite;
   }
 
+  .node span {
+    display: block;
+    margin-top: -2px;
+  }
+
   .node b {
     display: block;
-    font-size: 19px;
+    font-size: 22px;
     margin-bottom:2px;
   }
 
@@ -143,35 +158,27 @@
   }
 
   .n1 {
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%) translate(0, -215px);
   }
 
   .n2 {
-    right: 10px;
-    top: 85px;
+    transform: translate(-50%, -50%) translate(186px, -107px);
   }
 
   .n3 {
-    right: 10px;
-    bottom: 75px;
+    transform: translate(-50%, -50%) translate(186px, 107px);
   }
 
   .n4 {
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%) translate(0, 215px);
   }
 
   .n5 {
-    left: 10px;
-    bottom: 75px;
+    transform: translate(-50%, -50%) translate(-186px, 107px);
   }
 
   .n6 {
-    left: 10px;
-    top: 85px;
+    transform: translate(-50%, -50%) translate(-186px, -107px);
   }
 
   .center-label {
@@ -396,15 +403,15 @@
   }
 
   .eco-visual {
-    min-height:442px;
+    min-height:560px;
     position: relative;
     display: grid;
     place-items: center;
   }
 
   .eco-center {
-    width: 170px;
-    height: 170px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     overflow: hidden;
     border: 7px solid #fff;
@@ -433,51 +440,58 @@
 
   .eco-node {
     position: absolute;
-    width: 96px;
-    height: 96px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 9px;
+    font-size: 13px;
     font-weight: 800;
     z-index: 4;
-    border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(255, 255, 255, 0.85);
+    padding: 10px;
+  }
+
+  .eco-node small {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 6px;
+    display: block;
+    line-height: 1.2;
   }
 
   .en1 {
-    top: 30px;
+    transform: translate(0, -210px);
     background: var(--navy);
   }
 
   .en2 {
-    right: 45px;
-    top: 115px;
+    transform: translate(182px, -105px);
     background: var(--green);
   }
 
   .en3 {
-    right: 40px;
-    bottom: 95px;
+    transform: translate(182px, 105px);
     background: var(--saffron);
     color: #111;
   }
 
   .en4 {
-    bottom: 20px;
+    transform: translate(0, 210px);
     background: var(--green);
   }
 
   .en5 {
-    left: 40px;
-    bottom: 95px;
+    transform: translate(-182px, 105px);
     background: var(--saffron);
     color: #111;
   }
 
   .en6 {
-    left: 45px;
-    top: 115px;
+    transform: translate(-182px, -105px);
     background: var(--green);
   }
 
@@ -997,6 +1011,11 @@
 
     .hero-ecosystem {
       height: 390px;
+      overflow: hidden;
+    }
+
+    .ecosystem {
+      overflow: visible;
     }
 
     .hero {
@@ -1063,9 +1082,43 @@
     }
 
     .hero-ecosystem {
-      transform: scale(0.8);
-      margin: 40px 0;
+      height: 280px;
+      overflow: visible;
     }
+    
+    .hero-orbit-wrapper {
+      width: 260px;
+      height: 260px;
+    }
+    
+    .orbit {
+      width: 260px;
+      height: 260px;
+    }
+    
+    .athlete-photo {
+      width: 140px;
+      height: 180px;
+      border-radius: 80px 80px 20px 20px;
+    }
+    
+    .hero-ecosystem .node {
+      width: 60px;
+      height: 60px;
+      font-size: 7px;
+      border-width: 2px;
+    }
+    
+    .hero-ecosystem .node b {
+      font-size: 15px;
+    }
+    
+    .n1 { transform: translate(-50%, -50%) translate(0, -130px); }
+    .n2 { transform: translate(-50%, -50%) translate(112px, -65px); }
+    .n3 { transform: translate(-50%, -50%) translate(112px, 65px); }
+    .n4 { transform: translate(-50%, -50%) translate(0, 130px); }
+    .n5 { transform: translate(-50%, -50%) translate(-112px, 65px); }
+    .n6 { transform: translate(-50%, -50%) translate(-112px, -65px); }
 
     .metrics-box {
       grid-template-columns: 1fr;
@@ -1104,8 +1157,48 @@
     }
 
     .eco-visual {
-      transform: scale(0.75);
-      margin: 40px 0;
+      min-height: 340px;
+      margin-top: 30px;
+    }
+    
+    .eco-center {
+      width: 140px;
+      height: 140px;
+      border-width: 4px;
+    }
+    
+    .eco-ring {
+      width: 260px;
+      height: 260px;
+    }
+    
+    .eco-node {
+      width: 86px;
+      height: 86px;
+      font-size: 8px;
+      border-width: 2px;
+      padding: 4px;
+    }
+    
+    .eco-node small {
+      font-size: 6px;
+      margin-top: 3px;
+    }
+    
+    .en1 { transform: translate(0, -130px); }
+    .en2 { transform: translate(112px, -65px); }
+    .en3 { transform: translate(112px, 65px); }
+    .en4 { transform: translate(0, 130px); }
+    .en5 { transform: translate(-112px, 65px); }
+    .en6 { transform: translate(-112px, -65px); }
+
+    .eco-grid {
+      overflow: visible;
+    }
+
+    .ecosystem {
+      overflow-x: clip;
+      overflow-y: visible;
     }
 
     .grid-features {
