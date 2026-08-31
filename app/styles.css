@@ -996,6 +996,10 @@
   }
 
   @media (max-width: 900px) {
+    section {
+      padding: 50px 0;
+    }
+
     nav {
       display: none;
     }
@@ -1070,11 +1074,11 @@
     }
 
     section {
-      padding:35px 0;
+      padding: 25px 0;
     }
 
     .hero-inner {
-      padding:45px 0;
+      padding: 25px 0;
     }
 
     .hero-copy h1 {

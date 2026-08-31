@@ -412,38 +412,7 @@ export default function Page() {
           </div>
         </section>
 
-        <div className="container metrics">
-          <div className="metrics-box reveal">
-            <div className="metric">
-              <div className="metric-icon">♧</div>
-              <div>
-                <strong data-count="10">10K+</strong>
-                <span>Athletes supported</span>
-              </div>
-            </div>
-            <div className="metric">
-              <div className="metric-icon">♢</div>
-              <div>
-                <strong data-count="250">250+</strong>
-                <span>Partners & organisations</span>
-              </div>
-            </div>
-            <div className="metric">
-              <div className="metric-icon">◎</div>
-              <div>
-                <strong data-count="35">35+</strong>
-                <span>Pathways & programs</span>
-              </div>
-            </div>
-            <div className="metric">
-              <div className="metric-icon">♜</div>
-              <div>
-                <strong>1</strong>
-                <span>Athlete at the centre</span>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         <section className="ecosystem" id="partnerships">
           <div className="container">
@@ -662,31 +631,7 @@ export default function Page() {
                 </div>
               </article>
 
-              <article className="solution reveal">
-                <div className="solution-media">
-                  <img
-                    src="/images/image_dc37341a.jpg"
-                    alt="Sports analytics and technology dashboard"
-                  />
-                  <span
-                    className="solution-number"
-                    style={{ background: "#07184e" }}
-                  >
-                    05
-                  </span>
-                </div>
-                <div className="solution-body">
-                  <span className="solution-icon">▣</span>
-                  <h3>Innovation &amp; Technology</h3>
-                  <p>
-                    Leveraging technology and innovation to enhance decision
-                    making, communication and performance outcomes.
-                  </p>
-                  <a href="#">
-                    COMING SOON
-                  </a>
-                </div>
-              </article>
+
             </div>
           </div>
         </section>
