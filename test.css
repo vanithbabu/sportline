@@ -1,0 +1,6 @@
+.page {
+  color: red;
+  .hero {
+    background: blue;
+  }
+}
