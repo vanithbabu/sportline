@@ -999,6 +999,11 @@
   }
 
   @media(max-width:560px) {
+  h2 {
+    font-size: 34px !important;
+    line-height: 1.1 !important;
+  }
+
     .footer-links {
       grid-template-columns: 1fr
     }
