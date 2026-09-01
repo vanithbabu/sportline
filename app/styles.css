@@ -1347,41 +1347,41 @@
     }
 
     .en1 {
-      transform: translate(-50%, -50%) translate(-70px, -70px);
+      transform: translate(-50%, -50%) translate(-50px, -60px);
     }
 
     .en2 {
-      transform: translate(-50%, -50%) translate(70px, -70px);
+      transform: translate(-50%, -50%) translate(50px, -60px);
     }
 
     .en3 {
-      transform: translate(-50%, -50%) translate(-70px, 70px);
+      transform: translate(-50%, -50%) translate(-50px, 60px);
     }
 
     .en4 {
-      transform: translate(-50%, -50%) translate(70px, 70px);
+      transform: translate(-50%, -50%) translate(50px, 60px);
     }
 
     .eco-label {
-      width: 75px;
+      width: 70px;
     }
 
     .eco-label strong {
-      font-size: 9px;
+      font-size: 8.5px;
       margin-bottom: 2px;
     }
 
     .eco-label p {
-      font-size: 7.5px;
-      line-height: 1.25;
+      font-size: 7px;
+      line-height: 1.2;
     }
 
     .label-left {
-      right: calc(100% + 10px);
+      right: calc(100% + 6px);
     }
 
     .label-right {
-      left: calc(100% + 10px);
+      left: calc(100% + 6px);
     }
 
     .eco-grid {
@@ -1870,7 +1870,13 @@
     .sl-motivation,
     .sl-journey-row {
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 8px;
+    }
+    
+    .sl-motivation span {
+      font-size: 14px;
+      padding: 8px 12px;
+      min-width: 130px;
     }
 
     .sl-need-row {
@@ -1897,7 +1903,7 @@
     }
 
     .sl-slide h1 {
-      font-size: 54px;
+      font-size: 38px;
     }
 
     .sl-closing {
