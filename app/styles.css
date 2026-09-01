@@ -1223,15 +1223,16 @@
     }
 
     .hero-ecosystem .node {
-      width: 60px;
-      height: 60px;
+      width: 65px;
+      height: 65px;
       font-size: 7px;
       border-width: 2px;
-      padding: 4px;
+      padding: 2px;
+      letter-spacing: -0.3px;
     }
 
     .hero-ecosystem .node b {
-      font-size: 15px;
+      font-size: 14px;
     }
 
     .n1 {
@@ -1246,7 +1247,7 @@
       transform: translate(-50%, -50%) translate(112px, 65px);
     }
 
-    .n4 span { font-size: 8.5px; letter-spacing: -0.2px; }
+    .n4 span { font-size: 5.5px; letter-spacing: -0.4px; }
 
   .n4 {
       transform: translate(-50%, -50%) translate(0, 130px);
