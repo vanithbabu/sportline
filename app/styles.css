@@ -134,6 +134,7 @@
   }
 
   .node span {
+    letter-spacing: -0.5px;
     display: block;
     margin-top: -2px;
     animation: spin 26s linear infinite reverse;
@@ -1953,11 +1954,7 @@
     padding-right: 8px;
   }
 
-  @keyframes premiumFloat {
-    0% { transform: translateY(0px) scale(0.94); }
-    50% { transform: translateY(-12px) scale(0.96); }
-    100% { transform: translateY(0px) scale(0.94); }
-  }
+  
 
   .sl-slide-ecosystem .hero-ecosystem {
     animation: premiumFloat 7s ease-in-out infinite;
@@ -2863,3 +2860,8 @@
     display: none !important;
   }
 }
+@keyframes premiumFloat {
+    0% { transform: translateY(0px) scale(0.94); }
+    50% { transform: translateY(-12px) scale(0.96); }
+    100% { transform: translateY(0px) scale(0.94); }
+  }

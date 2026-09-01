@@ -136,7 +136,7 @@ export default function Page() {
                     <div className="orbit"></div>
                     <div className="athlete-photo">
                       <img
-                        src="/images/image_b220e937.jpg"
+                        src="/images/SL01.jpg"
                         alt="Athlete training on a track"
                       />
                     </div>
