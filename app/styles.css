@@ -1453,7 +1453,7 @@
 
   .sl-slide h1 {
     margin:0;
-    font-size: clamp(46px, 5.25vw, 92px);
+    font-size: clamp(58px, 5.8vw, 102px);
     line-height: 0.88;
     letter-spacing: -0.045em;
     font-weight: 800;
@@ -1468,6 +1468,10 @@
     color: #68b820;
   }
 
+  .sl-premium-copy h1 {
+    font-size: clamp(38px, 4.2vw, 76px);
+  }
+
   .sl-line {
     width: 70px;
     height: 2px;
@@ -1480,7 +1484,7 @@
   }
 
   .sl-intro {
-    font-size: 15px;
+    font-size: 22px;
     line-height: 1.55;
     color: #e0e4ea;
     margin:0 0 24px;
@@ -1500,7 +1504,7 @@
     gap: 13px;
     padding:0 17px;
     border-right: 1px solid rgba(255, 255, 255, 0.35);
-    font-size: 11px;
+    font-size: 16px;
     line-height: 1.55;
     color: #e3e6eb;
     min-height:44px;
@@ -1521,19 +1525,21 @@
   }
 
   .sl-cta {
+    position: relative;
+    z-index: 20;
     display: inline-flex;
     align-items: center;
     gap: 20px;
     padding:15px 25px;
     border-radius: 28px;
-    font-size: 11px;
+    font-size: 16px;
     letter-spacing: 0.05em;
     font-weight: 800;
     text-decoration: none;
   }
 
   .sl-cta b {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .orange {
@@ -1563,7 +1569,7 @@
     border-radius: 8px;
     padding:10px 20px;
     color: #d9dde1;
-    font-size: 13px;
+    font-size: 18px;
     min-width: 150px;
   }
 
@@ -1589,7 +1595,7 @@
     padding:0 18px;
     border-right: 1px solid #4d5864;
     color: #dce0e5;
-    font-size: 11px;
+    font-size: 16px;
     line-height: 1.45;
   }
 
@@ -1613,7 +1619,7 @@
   }
 
   .sl-copy-right h1 {
-    font-size: clamp(42px, 4.2vw, 74px);
+    font-size: clamp(58px, 5.8vw, 102px);
   }
 
   .sl-dark-copy {
@@ -1644,7 +1650,7 @@
     display: flex;
     align-items: center;
     gap: 9px;
-    font-size: 10px;
+    font-size: 16px;
     line-height: 1.35;
     white-space: nowrap;
   }
@@ -1661,7 +1667,7 @@
   }
 
   .sl-body-dark {
-    font-size: 13px;
+    font-size: 18px;
     line-height: 1.55;
     color: #26334c;
     margin:0 0 24px;
