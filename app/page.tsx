@@ -125,10 +125,10 @@ export default function Page() {
                     </p>
                     <div className="hero-actions">
                       <Link className="btn btn-orange" href="/what-we-do#pathways">
-                        EXPLORE OUR PATHWAYS <span className="arrow">→</span>
+                        EXPLORE OUR PATHWAYS <b>→</b>
                       </Link>
                       <Link className="btn btn-outline" href="/partner-with-us">
-                        PARTNER WITH US <span className="arrow">→</span>
+                        PARTNER WITH US <b>→</b>
                       </Link>
                     </div>
                   </div>
@@ -233,7 +233,7 @@ export default function Page() {
                       </span>
                     </div>
                   </div>
-                  <Link href="/what-we-do#pathways" className="sl-cta orange">
+                  <Link href="/what-we-do#pathways" className="btn btn-orange">
                     EXPLORE WHAT'S NEXT <b>→</b>
                   </Link>
                 </div>
@@ -285,7 +285,7 @@ export default function Page() {
                       forward?
                     </div>
                   </div>
-                  <Link href="/what-we-do#pathways" className="sl-cta outline-green">
+                  <Link href="/what-we-do#pathways" className="btn btn-outline outline-green">
                     FIND YOUR DIRECTION <b>→</b>
                   </Link>
                 </div>
@@ -347,7 +347,7 @@ export default function Page() {
                     You stay at the centre. We create the connections that move
                     you forward.
                   </p>
-                  <Link href="/what-we-do#pathways" className="sl-cta navy">
+                  <Link href="/what-we-do#pathways" className="btn navy">
                     START YOUR JOURNEY <b>→</b>
                   </Link>
                 </div>
@@ -381,9 +381,9 @@ export default function Page() {
                     Extraordinary sporting experiences, curated with care.
                     Moments that stay with you forever.
                   </p>
-                  <a href="/connect-with-us" className="sl-cta orange">
+                  <Link href="/connect-with-us" className="btn btn-orange">
                     EXPLORE EXPERIENCES <b>→</b>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="sl-arc sl-arc-right"></div>
