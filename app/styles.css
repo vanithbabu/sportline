@@ -171,6 +171,8 @@
     transform: translate(-50%, -50%) translate(186px, 107px);
   }
 
+  .n4 span { font-size: 8.5px; letter-spacing: -0.2px; }
+
   .n4 {
     transform: translate(-50%, -50%) translate(0, 215px);
   }
@@ -1243,7 +1245,9 @@
       transform: translate(-50%, -50%) translate(112px, 65px);
     }
 
-    .n4 {
+    .n4 span { font-size: 8.5px; letter-spacing: -0.2px; }
+
+  .n4 {
       transform: translate(-50%, -50%) translate(0, 130px);
     }
 

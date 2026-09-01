@@ -2656,13 +2656,13 @@ section {
 }
 
 .n2 {
-  right: 18px;
-  top: 105px
+  right: -29px;
+  top: 87px
 }
 
 .n3 {
-  right: 25px;
-  bottom: 75px
+  right: -29px;
+  bottom: 87px
 }
 
 .n4 {
@@ -2670,13 +2670,13 @@ section {
 }
 
 .n5 {
-  left: 25px;
-  bottom: 75px
+  left: -29px;
+  bottom: 87px
 }
 
 .n6 {
-  left: 18px;
-  top: 105px
+  left: -29px;
+  top: 87px
 }
 
 .eco-copy p {
@@ -2755,9 +2755,12 @@ section {
     grid-template-columns: 1fr !important
   }
 
-  .solution.visual-right .copy,
-  .solution.visual-right .visual {
-    order: initial !important
+  .solution .copy {
+    order: 2 !important;
+  }
+
+  .solution .visual {
+    order: 1 !important;
   }
 
   .solution .visual {
@@ -2769,8 +2772,10 @@ section {
   }
 
   .orbit {
-    transform: scale(.82);
-    margin: -45px 0
+    transform: scale(0.77);
+    margin-top: -45px;
+    margin-bottom: -45px;
+    margin-left: calc(50% - 195px);
   }
 
   .hero {
@@ -3284,7 +3289,7 @@ section {
 
   .ecosystem {
     gap: 30px !important;
-    justify-items: center !important;
+    
     overflow-x: hidden !important;
   }
 
