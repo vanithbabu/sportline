@@ -1898,6 +1898,7 @@
     .sl-content {
       width: 88vw;
       align-items: flex-start;
+      flex-direction: column;
       padding-top: 120px;
       padding-bottom: 50px;
     }
@@ -1907,8 +1908,11 @@
     }
 
     .sl-closing {
-      right: 6%;
-      bottom: 13%;
+      position: relative;
+      right: auto;
+      bottom: auto;
+      text-align: left;
+      margin-top: 30px;
     }
 
     .sl-bg-2 {
