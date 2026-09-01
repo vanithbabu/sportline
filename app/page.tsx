@@ -438,7 +438,7 @@ export default function Page() {
               <div className="eco-visual reveal">
                 <div className="eco-ring"></div>
                 <div className="eco-center">
-                  <img src="/images/image_f65b765a.jpg" alt="Athlete" />
+                  <img src="/images/SL01.jpg" alt="Athlete" />
                   <div className="eco-center-badge">
                     <User className="badge-icon" size={36} strokeWidth={2.5} />
                     <span className="badge-text">ATHLETE<br />AT THE CENTRE</span>
