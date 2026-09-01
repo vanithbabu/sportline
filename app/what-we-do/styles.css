@@ -2771,11 +2771,11 @@ section {
     grid-template-columns: 1fr !important
   }
 
-  .orbit {
-    transform: scale(0.77);
-    margin-top: -45px;
-    margin-bottom: -45px;
-    margin-left: calc(50% - 195px);
+    .orbit {
+    transform: scale(0.70) !important;
+    margin-top: -50px !important;
+    margin-bottom: -50px !important;
+    margin-left: calc(50% - 195px) !important;
   }
 
   .hero {
@@ -3293,10 +3293,5 @@ section {
     overflow-x: hidden !important;
   }
 
-  .orbit {
-    transform: scale(0.80) !important;
-    margin-top: -50px !important;
-    margin-bottom: -50px !important;
-    margin-left: calc(50% - 195px) !important;
-  }
+
 }
