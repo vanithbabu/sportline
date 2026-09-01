@@ -1227,6 +1227,7 @@
       height: 60px;
       font-size: 7px;
       border-width: 2px;
+      padding: 4px;
     }
 
     .hero-ecosystem .node b {

@@ -1,6 +1,12 @@
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.SMTP_EMAIL,
+    pass: process.env.SMTP_PASSWORD,
+  },
+});
 
 export async function POST(request: Request) {
   try {
@@ -31,19 +37,16 @@ export async function POST(request: Request) {
       </div>
     `;
 
-    const { data: resendData, error } = await resend.emails.send({
-      from: 'Sportline Advantage <onboarding@resend.dev>',
-      to: ['vanith.bb@gmail.com'],
+    await transporter.sendMail({
+      from: `Sportline Advantage <${process.env.SMTP_EMAIL}>`,
+      to: process.env.SMTP_EMAIL,
       subject: `New submission: ${data.formType || 'Contact Form'}`,
       html: emailContent,
     });
 
-    if (error) {
-      return Response.json({ error: error.message || 'Error sending email' }, { status: 500 });
-    }
-
-    return Response.json({ success: true, data: resendData });
+    return Response.json({ success: true });
   } catch (error) {
+    console.error('Email send error:', error);
     return Response.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }
