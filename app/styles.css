@@ -2920,4 +2920,7 @@
     padding: 15px 0;
     border-right: none;
   }
+  .sl-slide.sl-slide-5 .sl-content {
+    padding-bottom: 250px;
+  }
 }

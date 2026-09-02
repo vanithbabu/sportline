@@ -380,7 +380,7 @@ export default function Page() {
                     Extraordinary sporting experiences, curated with care.
                     Moments that stay with you forever.
                   </p>
-                  <Link href="/connect-with-us" className="btn btn-orange">
+                  <Link href="/what-we-do#experiences" className="btn btn-orange">
                     EXPLORE EXPERIENCES <b>→</b>
                   </Link>
                 </div>
