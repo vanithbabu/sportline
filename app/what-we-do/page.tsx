@@ -158,7 +158,6 @@ export default function Page() {
               <a href="/connect-with-us" className="insight-card insight-pathways"><div className="tag">Pathways</div><h3>Looking beyond the obvious opportunity.</h3><p>Perspectives on exploring the environments and possibilities that may shape an athlete's next move.</p><div className="read">EXPLORE INSIGHTS →</div></a>
               <a href="/connect-with-us" className="insight-card insight-partnerships"><div className="tag">Sporting ecosystem</div><h3>Why better opportunities are built together.</h3><p>Ideas and conversations from across the people, organisations and communities that move sport forward.</p><div className="read">VIEW ALL INSIGHTS →</div></a>
             </div>
-            <div className="insight-note">This module can later surface content automatically based on the page or offering the visitor is exploring.</div>
           </div>
         </section>
 
