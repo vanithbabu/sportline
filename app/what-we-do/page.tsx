@@ -140,9 +140,22 @@ export default function Page() {
         </section>
 
         <section className="band">
-          <div className="wrap ecosystem">
-            <div className="orbit reveal"><div className="ring"></div><div className="core">SPORTLINE<br />ADVANTAGE</div><div className="node n1">ATHLETES</div><div className="node n2">COACHES</div><div className="node n3">PARTNERS</div><div className="node n4">COMMUNITIES</div><div className="node n5">OPPORTUNITIES</div><div className="node n6">EXPERIENCES</div></div>
-            <div className="eco-copy reveal"><div className="eyebrow">HOW IT CONNECTS</div><h2>Different solutions. A connected ecosystem.</h2><p>You may enter Sportline through one solution and discover another need later. Learning can create clarity. Clarity can lead to exploration. Partnerships can create new opportunities. Experiences can create a deeper connection with sport.</p><p>The individual journey changes. The ecosystem around it keeps moving.</p></div>
+          <div className="wrap ecosystem eco-grid">
+            <div className="orbit reveal">
+              <div className="core">SPORTLINE<br />ADVANTAGE</div>
+              <div className="node n1"><span>ATHLETES</span></div>
+              <div className="node n2"><span>COACHES</span></div>
+              <div className="node n3"><span>PARTNERS</span></div>
+              <div className="node n4"><span>COMMUNITIES</span></div>
+              <div className="node n5"><span>OPPORTUNITIES</span></div>
+              <div className="node n6"><span>EXPERIENCES</span></div>
+            </div>
+            <div className="eco-copy reveal">
+              <div className="eyebrow">HOW IT CONNECTS</div>
+              <h2>Different solutions. A<br />connected<br />ecosystem.</h2>
+              <p>You may enter Sportline through one solution and discover another need later. Learning can create clarity. Clarity can lead to exploration. Partnerships can create new opportunities. Experiences can create a deeper connection with sport.</p>
+              <p>The individual journey changes. The ecosystem around it keeps moving.</p>
+            </div>
           </div>
         </section>
 
