@@ -1966,17 +1966,61 @@
 
   /* Resize orbit correctly on mobile without scale() to prevent overflow */
   .what-we-do-page .ecosystem .orbit {
-    width: 320px !important;
-    height: 320px !important;
+    width: 220px !important;
+    height: 220px !important;
     margin: 40px auto !important;
   }
   
-  /* Recalculate node positions for 320px orbit (radius 160px) */
-  .what-we-do-page .ecosystem .n1 { transform: translate(-50%, -50%) translate(0, -160px) !important; }
-  .what-we-do-page .ecosystem .n2 { transform: translate(-50%, -50%) translate(138px, -80px) !important; }
-  .what-we-do-page .ecosystem .n3 { transform: translate(-50%, -50%) translate(138px, 80px) !important; }
-  .what-we-do-page .ecosystem .n4 { transform: translate(-50%, -50%) translate(0, 160px) !important; }
-  .what-we-do-page .ecosystem .n5 { transform: translate(-50%, -50%) translate(-138px, 80px) !important; }
-  .what-we-do-page .ecosystem .n6 { transform: translate(-50%, -50%) translate(-138px, -80px) !important; }
+  .what-we-do-page .ecosystem .core {
+    width: 110px !important;
+    height: 110px !important;
+    font-size: 11px !important;
+    margin-top: -55px !important;
+    margin-left: -55px !important;
+  }
+
+  .what-we-do-page .ecosystem .node {
+    width: 80px !important;
+    height: 80px !important;
+    font-size: 8px !important;
+  }
+  
+  /* Recalculate node positions for 220px orbit (radius 110px) */
+  .what-we-do-page .ecosystem .n1 { transform: translate(-50%, -50%) translate(0, -110px) !important; }
+  .what-we-do-page .ecosystem .n2 { transform: translate(-50%, -50%) translate(95px, -55px) !important; }
+  .what-we-do-page .ecosystem .n3 { transform: translate(-50%, -50%) translate(95px, 55px) !important; }
+  .what-we-do-page .ecosystem .n4 { transform: translate(-50%, -50%) translate(0, 110px) !important; }
+  .what-we-do-page .ecosystem .n5 { transform: translate(-50%, -50%) translate(-95px, 55px) !important; }
+  .what-we-do-page .ecosystem .n6 { transform: translate(-50%, -50%) translate(-95px, -55px) !important; }
+
+  /* Reduce whitespace across all sections on mobile */
+  .what-we-do-page .hero {
+    padding-top: 80px !important;
+    padding-bottom: 30px !important;
+  }
+  
+  .what-we-do-page .band,
+  .what-we-do-page .cta,
+  .what-we-do-page .insights-section,
+  .what-we-do-page .intro,
+  .what-we-do-page .detail-solution,
+  .what-we-do-page .selector {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .what-we-do-page .solution .copy,
+  .what-we-do-page .detail-hero-copy {
+    padding: 30px 20px !important;
+  }
+  
+  .what-we-do-page .ecosystem.eco-grid {
+    margin: 20px auto !important;
+  }
+  
+  .what-we-do-page .ecosystem .eco-copy {
+    padding-top: 0 !important;
+    margin-top: -20px !important;
+  }
 }
 
