@@ -1994,33 +1994,42 @@
   .what-we-do-page .ecosystem .n6 { transform: translate(-50%, -50%) translate(-95px, -55px) !important; }
 
   /* Reduce whitespace across all sections on mobile */
-  .what-we-do-page .hero {
-    padding-top: 80px !important;
-    padding-bottom: 30px !important;
-  }
-  
+  .what-we-do-page section,
   .what-we-do-page .band,
   .what-we-do-page .cta,
   .what-we-do-page .insights-section,
   .what-we-do-page .intro,
   .what-we-do-page .detail-solution,
-  .what-we-do-page .selector {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+  .what-we-do-page .selector,
+  .what-we-do-page .solution,
+  .what-we-do-page .hero {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
 
-  .what-we-do-page .solution .copy,
+  .what-we-do-page .wrap {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .what-we-do-page .copy,
   .what-we-do-page .detail-hero-copy {
-    padding: 30px 20px !important;
+    padding: 20px !important;
+    margin: 0 !important;
   }
   
   .what-we-do-page .ecosystem.eco-grid {
     margin: 20px auto !important;
+    padding: 0 !important;
   }
   
   .what-we-do-page .ecosystem .eco-copy {
     padding-top: 0 !important;
-    margin-top: -20px !important;
+    margin-top: 0 !important;
   }
 }
 
