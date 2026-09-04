@@ -150,27 +150,30 @@ export default function Page() {
         </section>
 
 
-        <section className="solution visual-right" id="partnerships">
-          <div className="copy reveal">
-            <div className="for">FOR A STRONGER SPORTS ECOSYSTEM</div>
-            <h2>Better opportunities<br />are built together.</h2>
-            <p>We work with organisations, brands and institutions to create meaningful programs, athlete opportunities and connections across the sporting ecosystem.</p>
-            <div className="tags">
-              <span className="tag">PARTNER WITH US</span>
-              <span className="tag">SPONSORSHIPS</span>
-              <span className="tag">STRATEGIC COLLABORATION</span>
-            </div>
-            <a className="btn orange" href="/connect-with-us">EXPLORE PARTNERSHIPS →</a>
-          </div>
-          <div className="visual" style={{ backgroundImage: "url('/images/Betteropportunitiesarebuilttogether.jpeg')" }}>
-            <div className="img-overlay-tr">
-              <div className="overlay-heading">
-                PEOPLE<br />PARTNERSHIPS<br />PROGRESS
+        <section className="detail-solution partnerships-redesign" id="partnerships">
+          <div className="detail-hero">
+            <div className="detail-hero-copy">
+              <div className="for">FOR A STRONGER SPORTS ECOSYSTEM</div>
+              <h2>Better opportunities<br />are built together.</h2>
+              <p className="detail-lead">We work with organisations, brands and institutions to create meaningful programs, athlete opportunities and connections across the sporting ecosystem.</p>
+              <div className="detail-tags">
+                <span>PARTNER WITH US</span>
+                <span>SPONSORSHIPS</span>
+                <span>STRATEGIC COLLABORATION</span>
               </div>
-              <span className="overlay-line"></span>
+              <a className="btn orange" href="/connect-with-us">EXPLORE PARTNERSHIPS →</a>
             </div>
-            <div className="img-overlay-bottom">
-              <span className="overlay-quote">SPORT BRINGS PEOPLE TOGETHER</span>
+            <div className="detail-hero-image partnerships-image">
+              <img src="/images/Betteropportunitiesarebuilttogether.jpeg" alt="Better opportunities are built together" />
+              <div className="img-overlay-tr">
+                <div className="overlay-heading">
+                  PEOPLE<br />PARTNERSHIPS<br />PROGRESS
+                </div>
+                <span className="overlay-line"></span>
+              </div>
+              <div className="img-overlay-bottom">
+                <span className="overlay-quote">SPORT BRINGS PEOPLE TOGETHER</span>
+              </div>
             </div>
           </div>
         </section>

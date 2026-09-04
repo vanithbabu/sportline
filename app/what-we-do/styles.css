@@ -2148,3 +2148,124 @@
     letter-spacing: 2px;
   }
 }
+
+/* =========================================================
+   Refined Unified Banner System (Programs, Pathways, Partnerships)
+   ========================================================= */
+.detail-solution .detail-hero {
+  display: grid;
+  grid-template-columns: 42% 58% !important;
+  min-height: 440px !important;
+  max-height: 520px !important;
+  overflow: hidden !important;
+}
+
+.detail-solution .detail-hero-copy {
+  padding: clamp(32px, 3.5vw, 48px) clamp(28px, 3.5vw, 56px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  background: #ffffff;
+}
+
+.detail-solution .dark-hero .detail-hero-copy {
+  background: #07152d !important;
+  color: #fff !important;
+  order: 1 !important;
+}
+
+.detail-solution .dark-hero .detail-hero-image {
+  order: 2 !important;
+}
+
+.detail-solution .detail-hero-copy .for {
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px !important;
+  color: #ff9933 !important;
+  margin-bottom: 14px !important;
+  text-transform: uppercase !important;
+}
+
+.detail-solution .detail-hero-copy h2 {
+  font-size: clamp(30px, 3.2vw, 44px) !important;
+  line-height: 1.1 !important;
+  letter-spacing: -1.2px !important;
+  color: #171b4d !important;
+  margin: 0 0 16px !important;
+}
+
+.detail-solution .dark-hero .detail-hero-copy h2 {
+  color: #ffffff !important;
+}
+
+.detail-solution .detail-hero-copy .detail-lead {
+  font-size: 14px !important;
+  line-height: 1.65 !important;
+  color: #66708e !important;
+  margin: 0 0 20px !important;
+}
+
+.detail-solution .dark-hero .detail-hero-copy .detail-lead {
+  color: #c7cfdf !important;
+}
+
+.detail-solution .detail-hero-copy .detail-tags {
+  display: flex !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+  margin-bottom: 24px !important;
+}
+
+.detail-solution .detail-hero-copy .detail-tags span {
+  display: inline-block !important;
+  padding: 6px 14px !important;
+  border-radius: 999px !important;
+  border: 1px solid #dce1eb !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #42486a !important;
+}
+
+.detail-solution .dark-hero .detail-hero-copy .detail-tags span {
+  border-color: rgba(255, 255, 255, 0.25) !important;
+  color: #ffffff !important;
+}
+
+.detail-solution .detail-hero-image {
+  position: relative !important;
+  min-height: 440px !important;
+  overflow: hidden !important;
+  background: #e9ecf2 !important;
+}
+
+.detail-solution .detail-hero-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+}
+
+/* Partnerships specific image positioning */
+.detail-solution .partnerships-image img {
+  object-position: 16% center !important;
+}
+
+@media (max-width: 850px) {
+  .detail-solution .detail-hero {
+    grid-template-columns: 1fr !important;
+    max-height: none !important;
+  }
+  .detail-solution .detail-hero-image {
+    min-height: 320px !important;
+    order: -1 !important;
+  }
+  .detail-solution .dark-hero .detail-hero-image {
+    order: -1 !important;
+  }
+  .detail-solution .dark-hero .detail-hero-copy {
+    order: 1 !important;
+  }
+}
