@@ -29,7 +29,7 @@ export default function Page() {
 
       <main className="what-we-do-page">
         <section className="hero">
-          <div className="hero-media" style={{ backgroundImage: "url('/images/SL0001.png')", backgroundSize: "cover", backgroundPosition: "center right", backgroundRepeat: "no-repeat" }}></div><div className="sport-orbit"></div>
+          <div className="hero-media"></div><div className="sport-orbit"></div>
           <div className="wrap reveal">
             <div className="eyebrow">SPORTLINE SOLUTIONS</div>
             <h1>Sport has more than<br /><span>one way forward.</span></h1>
