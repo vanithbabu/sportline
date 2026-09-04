@@ -2035,3 +2035,116 @@
   }
 }
 
+
+/* =========================================================
+   Image Overlays for Solution Sections
+   ========================================================= */
+.detail-hero-image,
+.solution .visual {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.img-overlay-tr {
+  position: absolute;
+  top: 40px;
+  right: 44px;
+  z-index: 4;
+  text-align: left;
+  pointer-events: none;
+}
+
+.img-overlay-tr .overlay-heading {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: clamp(16px, 1.8vw, 22px);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.img-overlay-tr .overlay-line {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: #ff9933;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.img-overlay-tl {
+  position: absolute;
+  top: 40px;
+  left: 44px;
+  z-index: 4;
+  text-align: left;
+  pointer-events: none;
+}
+
+.img-overlay-tl .overlay-sub {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: clamp(11px, 1.1vw, 13px);
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.img-overlay-bottom {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  text-align: center;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.img-overlay-bottom .overlay-quote {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: clamp(11px, 1.1vw, 13px);
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.dark-hero .detail-hero-copy {
+  order: 1 !important;
+}
+
+.dark-hero .detail-hero-image {
+  order: 2 !important;
+}
+
+@media (max-width: 768px) {
+  .img-overlay-tr {
+    top: 20px;
+    right: 20px;
+  }
+  .img-overlay-tr .overlay-heading {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+  .img-overlay-tl {
+    top: 20px;
+    left: 20px;
+  }
+  .img-overlay-tl .overlay-sub {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .img-overlay-bottom {
+    bottom: 16px;
+  }
+  .img-overlay-bottom .overlay-quote {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+}

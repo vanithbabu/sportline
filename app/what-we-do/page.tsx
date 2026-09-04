@@ -67,7 +67,15 @@ export default function Page() {
               <div className="detail-tags"><span>WORKSHOPS</span><span>PROGRAMS</span><span>MASTERCLASSES</span></div>
               <a className="btn orange" href="/connect-with-us">EXPLORE PROGRAMS →</a>
             </div>
-            <div className="detail-hero-image"><img src="/images/Programs-Workshops.jpeg" alt="Programs &amp; Workshops" /></div>
+            <div className="detail-hero-image">
+              <img src="/images/Programs-Workshops.jpeg" alt="Programs &amp; Workshops" />
+              <div className="img-overlay-tr">
+                <div className="overlay-heading">
+                  LEARN<br />DEVELOP<br />PERFORM
+                </div>
+                <span className="overlay-line"></span>
+              </div>
+            </div>
           </div>
 
           <div className="detail-intro">
@@ -93,14 +101,27 @@ export default function Page() {
 
         <section className="detail-solution pathways-redesign" id="pathways">
           <div className="detail-hero dark-hero">
-            <div className="detail-hero-image"><img src="/images/sportingopportunity.jpeg" alt="Creating access to sporting opportunity" /></div>
             <div className="detail-hero-copy">
-              <div className="for">FOR ATHLETES</div>
-              <h2>Creating access to sporting opportunity.</h2>
+              <div className="for">FOR ATHLETES &amp; FAMILIES</div>
+              <h2>Creating access<br />to sporting opportunity.</h2>
               <p className="detail-lead">Talent needs opportunity, exposure and the right environment to progress.</p>
               <p>Sportline Advantage creates pathways that connect athletes, institutions and sporting communities with training, competition, international exposure, learning and development opportunities.</p>
-              <div className="detail-tags"><span>EXPLORE</span><span>UNDERSTAND</span><span>CONNECT</span></div>
-              <a className="btn navy" href="/connect-with-us">EXPLORE PATHWAYS →</a>
+              <div className="detail-tags"><span>PROGRAMS</span><span>TRAINING CAMPS</span><span>EXCHANGES</span></div>
+              <a className="btn orange" href="/connect-with-us">EXPLORE PATHWAYS →</a>
+            </div>
+            <div className="detail-hero-image">
+              <img src="/images/sportingopportunity.jpeg" alt="Creating access to sporting opportunity" />
+              <div className="img-overlay-tl">
+                <div className="overlay-sub">
+                  NEW PLACES<br />NEW PERSPECTIVES<br />NEW OPPORTUNITIES
+                </div>
+              </div>
+              <div className="img-overlay-tr">
+                <div className="overlay-heading">
+                  INDIA<br />TO THE WORLD
+                </div>
+                <span className="overlay-line"></span>
+              </div>
             </div>
           </div>
 
@@ -130,8 +151,28 @@ export default function Page() {
 
 
         <section className="solution visual-right" id="partnerships">
-          <div className="copy reveal"><div className="for">FOR ACADEMIES · INSTITUTIONS · ORGANISATIONS · BRANDS</div><h2>Better opportunities are built together.</h2><p>Sportline works with organisations that want to create meaningful programs, athlete opportunities, pathways, initiatives and connections across the sporting ecosystem.</p><div className="tags"><span className="tag">PROGRAM PARTNERSHIPS</span><span className="tag">PATHWAYS</span><span className="tag">STRATEGIC COLLABORATION</span></div><a className="btn orange" href="/connect-with-us">EXPLORE PARTNERSHIPS →</a></div>
-          <div className="visual" style={{ backgroundImage: "url('/images/Betteropportunitiesarebuilttogether.jpeg')" }}></div>
+          <div className="copy reveal">
+            <div className="for">FOR A STRONGER SPORTS ECOSYSTEM</div>
+            <h2>Better opportunities<br />are built together.</h2>
+            <p>We work with organisations, brands and institutions to create meaningful programs, athlete opportunities and connections across the sporting ecosystem.</p>
+            <div className="tags">
+              <span className="tag">PARTNER WITH US</span>
+              <span className="tag">SPONSORSHIPS</span>
+              <span className="tag">STRATEGIC COLLABORATION</span>
+            </div>
+            <a className="btn orange" href="/connect-with-us">EXPLORE PARTNERSHIPS →</a>
+          </div>
+          <div className="visual" style={{ backgroundImage: "url('/images/Betteropportunitiesarebuilttogether.jpeg')" }}>
+            <div className="img-overlay-tr">
+              <div className="overlay-heading">
+                PEOPLE<br />PARTNERSHIPS<br />PROGRESS
+              </div>
+              <span className="overlay-line"></span>
+            </div>
+            <div className="img-overlay-bottom">
+              <span className="overlay-quote">SPORT BRINGS PEOPLE TOGETHER</span>
+            </div>
+          </div>
         </section>
 
         <section className="solution" id="experiences">
