@@ -13,6 +13,10 @@ const montserrat = Montserrat({
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sportlineadvantage.com"),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "Sportline Advantage | Creating access to sporting opportunity",
     template: "%s | Sportline Advantage",
