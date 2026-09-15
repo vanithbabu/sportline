@@ -9,6 +9,7 @@ import ConnectForm from "@/components/ConnectForm";
 export const metadata = getMetadata({
   title: "Connect With Us | Sportline Advantage",
   description: "",
+  canonical: "/connect-with-us",
 });
 
 export default function Page() {

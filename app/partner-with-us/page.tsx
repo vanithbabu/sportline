@@ -8,7 +8,9 @@ import PartnerForm from "@/components/PartnerForm";
 
 export const metadata = getMetadata({
   title: "Partner With Us | Sportline Advantage",
-  description: "",
+  description:
+    "Partner with Sportline Advantage to co-create sporting excellence, empower athletes, and build world-class programs for schools, academies, and clubs.",
+  canonical: "/partner-with-us",
 });
 
 export default function Page() {

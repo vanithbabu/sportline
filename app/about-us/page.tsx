@@ -1,11 +1,18 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Seo from "../../components/Seo";
+import { getMetadata } from "../../components/Seo";
 import Link from "next/link";
+
+export const metadata = getMetadata({
+  title: "About Us | Sportline Advantage",
+  description:
+    "Sportline Advantage brings together people, expertise, partnerships and technology to create meaningful opportunities and pathways in sport.",
+  canonical: "/about-us",
+});
+
 export default function AboutPage() {
   return (
     <>
-      <Seo title="About Us | Sportline Advantage" />
       <Header />
       <main className="about-page">
         {/* Extracted Content */}
