@@ -8,7 +8,8 @@ import ConnectForm from "@/components/ConnectForm";
 
 export const metadata = getMetadata({
   title: "Connect With Us | Sportline Advantage",
-  description: "",
+  description:
+    "Connect with Sportline Advantage to learn more about our athlete pathways, institutional programs, training camps, and sporting opportunities.",
   canonical: "/connect-with-us",
 });
 
