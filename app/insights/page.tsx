@@ -1,13 +1,18 @@
 import React from "react";
 import Footer from "@/components/Footer";
-import Seo from "@/components/Seo";
-
+import { getMetadata } from "@/components/Seo";
 import Header from "@/components/Header";
+
+export const metadata = getMetadata({
+  title: "Insights | Sportline Advantage",
+  description:
+    "Explore insights, stories, and thought leadership on sports training, athlete development, and sports excellence.",
+  canonical: "/insights",
+});
 
 export default function InsightsPage() {
   return (
     <>
-      <Seo title="Insights | Sportline Advantage" />
       <Header />
       <main className="insights-page">
         <section className="coming-soon-section">
