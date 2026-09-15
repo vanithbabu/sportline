@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sportlineadvantage.com"),
+  metadataBase: new URL("https://www.sportlineadvantage.com"),
   alternates: {
     canonical: "/",
   },
@@ -28,15 +28,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://sportlineadvantage.com",
+    url: "https://www.sportlineadvantage.com",
     siteName: "Sportline Advantage",
-    title: "Sportline Advantage",
-    description: "Creating access to sporting opportunity for athletes, institutions, and communities.",
+    title: "Sportline Advantage | Creating access to sporting opportunity",
+    description: "Sportline Advantage creates pathways that connect athletes, institutions and sporting communities with training, competition, international exposure, learning and development opportunities.",
+    images: [
+      {
+        url: "/images/banner5.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sportline Advantage",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sportline Advantage",
-    description: "Creating access to sporting opportunity.",
+    title: "Sportline Advantage | Creating access to sporting opportunity",
+    description: "Sportline Advantage creates pathways that connect athletes, institutions and sporting communities.",
+    images: ["/images/banner5.jpg"],
   },
   robots: {
     index: true,
@@ -55,6 +64,36 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SportsOrganization",
+      "@id": "https://www.sportlineadvantage.com/#organization",
+      name: "Sportline Advantage",
+      legalName: "Sportline Advantage Private Limited",
+      url: "https://www.sportlineadvantage.com",
+      logo: "https://www.sportlineadvantage.com/icon.png",
+      description:
+        "Sportline Advantage creates pathways that connect athletes, institutions and sporting communities with training, competition, international exposure, learning and development opportunities.",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Chennai",
+        addressCountry: "IN",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.sportlineadvantage.com/#website",
+      url: "https://www.sportlineadvantage.com",
+      name: "Sportline Advantage",
+      publisher: {
+        "@id": "https://www.sportlineadvantage.com/#organization",
+      },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -62,6 +101,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={montserrat.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body style={{ margin: 0, padding: 0 }}>
         {children}
         <Script

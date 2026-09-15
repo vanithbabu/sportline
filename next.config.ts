@@ -9,11 +9,11 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
-            value: 'www.sportlineadvantage.com',
+            value: 'sportlineadvantage.com',
           },
         ],
-        destination: 'https://sportlineadvantage.com/:path*',
-        permanent: true, // HTTP 301 Permanent Redirect
+        destination: 'https://www.sportlineadvantage.com/:path*',
+        permanent: true, // HTTP 301 Moved Permanently
       },
     ];
   },

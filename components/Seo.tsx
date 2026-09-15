@@ -24,7 +24,7 @@ export default function Seo({ title, description, canonical }: SeoProps) {
         name="description"
         content={description || defaultSeo.description}
       />
-      {canonical && <link rel="canonical" href={canonical.startsWith("http") ? canonical : `https://sportlineadvantage.com${canonical}`} />}
+      {canonical && <link rel="canonical" href={canonical.startsWith("http") ? canonical : `https://www.sportlineadvantage.com${canonical}`} />}
     </Head>
   );
 }
@@ -38,8 +38,8 @@ export function getMetadata({ title, description, canonical }: SeoProps): Metada
   const canonicalUrl = canonical
     ? canonical.startsWith("http")
       ? canonical
-      : `https://sportlineadvantage.com${canonical}`
-    : "https://sportlineadvantage.com";
+      : `https://www.sportlineadvantage.com${canonical}`
+    : "https://www.sportlineadvantage.com";
 
   return {
     title: pageTitle,
